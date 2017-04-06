@@ -1,0 +1,118 @@
+.owl-carousel {
+    overflow: hidden;
+    width: 1140px;
+    color: #3b434c;
+}
+
+.owl-carousel img {
+    border-bottom: 5px solid transparent;
+    width: 100%;
+    height: auto;
+    border-radius: 7px 7px 10px 10px;
+}
+
+.owl-carousel img:hover {
+    border-bottom: 5px solid #f7600e;
+    overflow: hidden;
+}
+
+.owl-theme .owl-dots .owl-dot:hover span {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    background-color: #f7600e;
+}
+
+.owl-theme .owl-dots .owl-dot.active span {
+    background: #f7600e;
+}
+
+.owl-carousel li {
+    cursor: pointer;
+    -webkit-filter: grayscale(150%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(150%);
+    display: block;
+    list-style: none;
+    position: relative;
+}
+
+.owl-carousel li:hover {
+    -webkit-filter: none; /* Safari 6.0 - 9.0 */
+    filter: none;
+}
+
+.item {
+    width: 260px;
+    height: auto;
+}
+
+img {
+    width: 100px;
+    display: block;
+    border-radius: 8px;
+    border: 1px solid rgba(63,68,77, 0.3);
+}
+
+h6 {
+    font-family: OpenSans-Semibold, Tahoma, Arial, sans-serif;
+    padding: 0;
+    margin: 30px 0;
+    font-size: 25px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+div {
+    overflow: hidden;
+}
+
+div a {
+    margin-left: 15px;
+    float: left;
+    display: block;
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+}
+
+div a:first-child {
+    margin-left: 80px;
+}
+
+p {
+    font-size: 14px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.mini-icon-facebook {
+    background-image: url("../images/mini_icon_facebook.png");
+    -moz-background-origin: border-box;
+}
+
+.mini-icon-twitter {
+    background-image: url("../images/mini_icon_twitter.png");
+}
+
+.mini-icon-google {
+    background-image: url("../images/mini_icon_google+.png");
+}
+
+
+
+
+
+
+
+
+.social-list {
+    overflow: hidden;
+}
+
+.social-list li {
+    display: block;
+
+}
+
+
+
+
